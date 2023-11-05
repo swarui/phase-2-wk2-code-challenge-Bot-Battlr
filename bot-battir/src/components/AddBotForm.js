@@ -10,3 +10,23 @@ const AddBotForm = ({ addBot }) => {
   const [avatar_url, setAvatarUrl] = useState("");
 };
 
+const handleSubmit = (event) => {
+    event.preventDefault();
+    const newBot = {
+      name,
+      health: parseInt(health),
+      damage: parseInt(damage),
+      armor: parseInt(armor),
+      bot_class,
+      catchphrase,
+      avatar_url,
+    };
+    addBot(newBot);
+    setName('');
+    setHealth('');
+    setDamage('');
+    setArmor('');
+    setBotClass('');
+    setCatchphrase('');
+    setAvatarUrl('');
+  };
