@@ -21,3 +21,4 @@ const MyBotCard = ({ bot, actionLabel, actionHandler }) => {
     </div>
   );
 };
+export default MyBotCard;
