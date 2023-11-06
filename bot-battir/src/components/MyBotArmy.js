@@ -17,3 +17,4 @@ const MyBotArmy = ({ bots, dischargeBot }) => {
   )
 }
 
+export default MyBotArmy;
