@@ -49,5 +49,5 @@ const BotCollection = ({ bots, enlistBot }) => {
     </div>
   );
 };
-export default BotCollection;
 
+export default BotCollection;
