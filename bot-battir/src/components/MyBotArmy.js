@@ -4,7 +4,7 @@ import MyBotCard from './MyBotCard';
 const MyBotArmy = ({ bots, dischargeBot }) => {
   return (
     <div className='your-bot-army'>
-      <h2>My Bot Army</h2>
+      {/* <h2>My Bot Army</h2> */}
       {bots.map((bot) => (
         <MyBotCard
           key={bot.id}

@@ -28,7 +28,7 @@ const BotCollection = ({ bots, enlistBot }) => {
 
   return (
     <div className="bot-collection">
-      <h2>All Bots</h2>
+      <h2>My Bot Army</h2>
       <div>
         <label>Select Category:</label>
         <select value={selectedCategory} onChange={handleCategoryChange}>
@@ -39,13 +39,15 @@ const BotCollection = ({ bots, enlistBot }) => {
           ))}
         </select>
       </div>
-      {selectedBot ? (
-        <BotSpecs bot={selectedBot} goBack={handleBackToCollection} enlistBot={enlistBot} />
-      ) : (
-        filteredBots.map((bot) => (
-          <MyBotCard key={bot.id} bot={bot} actionLabel="Enlist" actionHandler={() => handleBotClick(bot)} />
-        ))
-      )}
+      <div className="bot-card-container">
+        {selectedBot ? (
+          <BotSpecs bot={selectedBot} goBack={handleBackToCollection} enlistBot={enlistBot} />
+        ) : (
+          filteredBots.map((bot) => (
+            <MyBotCard key={bot.id} bot={bot} actionLabel="Enlist" actionHandler={() => handleBotClick(bot)} />
+          ))
+        )}
+      </div>
     </div>
   );
 };

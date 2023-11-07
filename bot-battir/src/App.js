@@ -3,6 +3,7 @@ import BotCollection from "./components/BotCollection";
 import MyBotArmy from "./components/MyBotArmy";
 import "./App.css";
 import AddBotForm from "./components/AddBotForm";
+// import 'semantic-ui-css/semantic.min.css'
 
 const App = () => {
   // Define state variables using useState hooks
