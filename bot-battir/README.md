@@ -20,7 +20,7 @@ The following have been used on this project:
 - CSS
 - React
 
-  - #### Live link to view the project <a href="">Bot Battlr .
+  - #### Live link to view the project <a href="https://swarui.github.io/phase-2-wk2-code-challenge-Bot-Battlr/">Bot Battlr .
 
 ## SETUP REQUIREMENTS.
 
@@ -31,9 +31,6 @@ The following have been used on this project:
 - Github
 
 ## SCREENSHOTS OF THE WEBPAGE APPLICATION.
-![React 3](https://github.com/swarui/phase-2-wk2-code-challenge-Bot-Battlr/assets/135341074/6e561d46-9201-42da-9ef2-9b41bac1f68e)
-![React 4](https://github.com/swarui/phase-2-wk2-code-challenge-Bot-Battlr/assets/135341074/0c7506cb-d2e6-427b-ad5f-af789c05b7aa)
-
 
 
 ## CONTRIBUTING
